@@ -34,5 +34,19 @@
   "updated_at": "2026-10-02",
   "featured": false,
   "trending": false,
-  "versions": []
+  "versions": [
+    {
+      "version": "1.0.0",
+      "notes": "First release: capture, filters, and zero-gravity stabilization.",
+      "size_kb": 1,
+      "size": 633,
+      "min_os": "8.0",
+      "status": "draft",
+      "created_at": "2026-10-02",
+      "published_at": null,
+      "downloads": 0,
+      "sha256": "69d3322dbfe59c5b53bda89d00bb91427e5f628e974f958a2b9508cbacbec1d3",
+      "filename": "orbit-camera-1.0.0.apk"
+    }
+  ]
 }
