@@ -1,0 +1,36 @@
+{
+  "slug": "apds-selftest-app",
+  "name": "APDS Selftest App",
+  "package_id": "dev.apds.selftest",
+  "developer": "APDS Selftest",
+  "developer_id": "apds-selftest",
+  "category": "tools",
+  "tagline": "Pipeline smoke test",
+  "description": "A temporary app created by the automated end-to-end pipeline test.",
+  "icon": {
+    "emoji": "\ud83e\uddea",
+    "gradient": [
+      "#0ea5e9",
+      "#22d3ee"
+    ]
+  },
+  "screenshots": [],
+  "website": "",
+  "privacy_policy": "",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet"
+  ],
+  "tags": [
+    "test"
+  ],
+  "status": "draft",
+  "rating": 0,
+  "ratings_count": 0,
+  "downloads": 0,
+  "created_at": "2026-10-02",
+  "updated_at": "2026-10-02",
+  "featured": false,
+  "trending": false,
+  "versions": []
+}
