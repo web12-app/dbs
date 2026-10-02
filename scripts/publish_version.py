@@ -37,6 +37,8 @@ def main():
         raise SystemExit(f"version {a.version} not found for {a.app}")
 
     app["updated_at"] = TODAY
+    if app.get("status") == "draft":
+        app["status"] = "published"  # first published release lists the app
     app_path.write_text(json.dumps(app, indent=2) + "\n")
 
     idx = json.loads(idx_path.read_text())
@@ -44,6 +46,8 @@ def main():
         if it["slug"] == a.app:
             it["version"] = a.version
             it["updated_at"] = TODAY
+            if it.get("status") == "draft":
+                it["status"] = "published"
     idx_path.write_text(json.dumps(idx, indent=2) + "\n")
     print(f"published {a.app} v{a.version}")
 
