@@ -26,7 +26,7 @@
     "demo",
     "photo"
   ],
-  "status": "draft",
+  "status": "published",
   "rating": 0,
   "ratings_count": 0,
   "downloads": 0,
@@ -41,9 +41,9 @@
       "size_kb": 1,
       "size": 633,
       "min_os": "8.0",
-      "status": "processing",
+      "status": "published",
       "created_at": "2026-10-02",
-      "published_at": null,
+      "published_at": "2026-10-02",
       "downloads": 0,
       "sha256": "69d3322dbfe59c5b53bda89d00bb91427e5f628e974f958a2b9508cbacbec1d3",
       "filename": "orbit-camera-1.0.0.apk"
