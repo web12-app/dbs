@@ -1,49 +1,20 @@
-# dbs
+# dbs (private)
 
-Private repo — **Vite** frontend + **Python** backend starter.
+Private database repository — schemas, migrations and seed data.
 
-## Structure
+> ⚠️ **No application code lives here.**
+> The full-stack app (Vite + React frontend, FastAPI + Python backend) is in the
+> **public** repo: [web12-app/apds](https://github.com/web12-app/apds) — deployed on Render.
 
-```
-dbs/
-├── frontend/   # Vite + React
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── src/
-└── backend/    # Python — FastAPI + SQLite
-    ├── main.py
-    └── requirements.txt
-```
+## Files
 
-## Run the backend (Python)
+- `schema.sql` — SQLite schema used by the apds app (source of truth)
+
+## Apply schema manually
 
 ```bash
-cd backend
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+sqlite3 dbs.db < schema.sql
 ```
 
-API docs: http://localhost:8000/docs
-
-## Run the frontend (Vite)
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Opens at http://localhost:5173 — the dev server proxies `/api/*` to the backend on port 8000.
-
-## API
-
-| Method | Path | Description |
-|---|---|---|
-| GET | `/api/health` | Health check |
-| GET | `/api/records` | List all records |
-| POST | `/api/records` | Create a record `{"name": "...", "value": "..."}` |
-| DELETE | `/api/records/{id}` | Delete a record |
-
-SQLite database file is created automatically at `backend/dbs.db`.
+The app creates the same tables automatically on startup (`init_db()` in
+`apds/backend/main.py`).
