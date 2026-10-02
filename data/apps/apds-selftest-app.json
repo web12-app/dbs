@@ -106,6 +106,19 @@
       "downloads": 0,
       "sha256": "2483c2d0f6021c546c153fdab23b5a53172c091a0d5ace2f35d33427831caef6",
       "filename": "selftest-1.0.5.apk"
+    },
+    {
+      "version": "1.0.6",
+      "notes": "t6",
+      "size_kb": 1,
+      "size": 176,
+      "min_os": "8.0",
+      "status": "draft",
+      "created_at": "2026-10-02",
+      "published_at": null,
+      "downloads": 0,
+      "sha256": "7197eaf8b91c3f08b6e76c32bff508475ec629f606a72683859ef893d8073a95",
+      "filename": "selftest-1.0.6.apk"
     }
   ]
 }
