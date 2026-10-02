@@ -7,11 +7,8 @@
     "category": "tools",
     "tagline": "Pipeline smoke test",
     "icon": {
-      "emoji": "\ud83e\uddea",
-      "gradient": [
-        "#0ea5e9",
-        "#22d3ee"
-      ]
+      "type": "image",
+      "path": "assets/apds-selftest-app/icon.png"
     },
     "tags": [
       "test"
