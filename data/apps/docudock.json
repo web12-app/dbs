@@ -1,0 +1,92 @@
+{
+  "slug": "docudock",
+  "name": "Docudock",
+  "package_id": "dev.apds.docudock",
+  "developer": "Ironbark Software",
+  "developer_id": "ironbark-software",
+  "category": "tools",
+  "tagline": "PDFs, tamed",
+  "description": "Docudock merges, signs, compresses, and converts documents right on your device \u2014 your files never leave your phone unless you say so.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udcc4",
+    "gradient": [
+      "#38bdf8",
+      "#6366f1"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Documents",
+      "palette": [
+        "#38bdf8",
+        "#6366f1"
+      ],
+      "emoji": "\ud83d\udcc4"
+    },
+    {
+      "title": "Sign & fill",
+      "palette": [
+        "#38bdf8",
+        "#6366f1"
+      ],
+      "emoji": "\ud83d\udcc4"
+    },
+    {
+      "title": "Compress",
+      "palette": [
+        "#38bdf8",
+        "#6366f1"
+      ],
+      "emoji": "\ud83d\udcc4"
+    }
+  ],
+  "website": "https://ironbark.software",
+  "privacy_policy": "https://ironbark.software/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Storage",
+    "Camera",
+    "Internet"
+  ],
+  "tags": [
+    "pdf",
+    "documents",
+    "esign",
+    "files"
+  ],
+  "status": "published",
+  "rating": 4.4,
+  "ratings_count": 7044,
+  "downloads": 155230,
+  "created_at": "2026-02-27",
+  "updated_at": "2026-09-22",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "3.0.1",
+      "notes": "Faster compression and form detection.",
+      "size_kb": 20480,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-22",
+      "published_at": "2026-09-22",
+      "downloads": 77615,
+      "release_tag": "apps/docudock/v3.0.1",
+      "sha256": null
+    },
+    {
+      "version": "2.9.0",
+      "notes": "E-signature overhaul.",
+      "size_kb": 19968,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-08-06",
+      "published_at": "2026-08-06",
+      "downloads": 77615,
+      "release_tag": "apps/docudock/v2.9.0",
+      "sha256": null
+    }
+  ]
+}

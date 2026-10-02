@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "games",
+    "name": "Games",
+    "emoji": "\ud83c\udfae",
+    "gradient": [
+      "#7c3aed",
+      "#f472b6"
+    ]
+  },
+  {
+    "slug": "music",
+    "name": "Music",
+    "emoji": "\ud83c\udfb5",
+    "gradient": [
+      "#06b6d4",
+      "#3b82f6"
+    ]
+  },
+  {
+    "slug": "education",
+    "name": "Education",
+    "emoji": "\ud83c\udf93",
+    "gradient": [
+      "#10b981",
+      "#84cc16"
+    ]
+  },
+  {
+    "slug": "tools",
+    "name": "Tools",
+    "emoji": "\ud83e\uddf0",
+    "gradient": [
+      "#0ea5e9",
+      "#6366f1"
+    ]
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "emoji": "\u26a1",
+    "gradient": [
+      "#f59e0b",
+      "#ef4444"
+    ]
+  },
+  {
+    "slug": "social",
+    "name": "Social",
+    "emoji": "\ud83d\udcac",
+    "gradient": [
+      "#ec4899",
+      "#f43f5e"
+    ]
+  },
+  {
+    "slug": "developer-tools",
+    "name": "Developer tools",
+    "emoji": "\ud83e\udde9",
+    "gradient": [
+      "#8b5cf6",
+      "#d946ef"
+    ]
+  }
+]

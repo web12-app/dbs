@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "lumen-notes",
+    "name": "Lumen Notes",
+    "developer": "Northlight Labs",
+    "developer_id": "northlight-labs",
+    "category": "productivity",
+    "tagline": "Notes that organize themselves",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udcdd",
+      "gradient": [
+        "#6366f1",
+        "#8b5cf6"
+      ]
+    },
+    "tags": [
+      "notes",
+      "markdown",
+      "sync",
+      "organization"
+    ],
+    "rating": 4.8,
+    "ratings_count": 12403,
+    "downloads": 284011,
+    "version": "1.2.0",
+    "status": "published",
+    "featured": true,
+    "trending": true,
+    "created_at": "2026-08-14",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "slug": "pixel-drift",
+    "name": "Pixel Drift",
+    "developer": "Frostline Games",
+    "developer_id": "frostline-games",
+    "category": "games",
+    "tagline": "Retro arcade racing",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83c\udfce\ufe0f",
+      "gradient": [
+        "#f97316",
+        "#ef4444"
+      ]
+    },
+    "tags": [
+      "racing",
+      "arcade",
+      "retro",
+      "multiplayer"
+    ],
+    "rating": 4.6,
+    "ratings_count": 48211,
+    "downloads": 1904222,
+    "version": "2.0.1",
+    "status": "published",
+    "featured": true,
+    "trending": true,
+    "created_at": "2026-05-30",
+    "updated_at": "2026-09-30"
+  },
+  {
+    "slug": "waveform",
+    "name": "Waveform",
+    "developer": "Auralis",
+    "developer_id": "auralis",
+    "category": "music",
+    "tagline": "A music player that learns you",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83c\udfa7",
+      "gradient": [
+        "#06b6d4",
+        "#3b82f6"
+      ]
+    },
+    "tags": [
+      "music",
+      "player",
+      "playlists",
+      "offline"
+    ],
+    "rating": 4.7,
+    "ratings_count": 30188,
+    "downloads": 952301,
+    "version": "3.4.0",
+    "status": "published",
+    "featured": false,
+    "trending": true,
+    "created_at": "2026-03-12",
+    "updated_at": "2026-09-25"
+  },
+  {
+    "slug": "mathlings",
+    "name": "Mathlings",
+    "developer": "Tiny Orbit",
+    "developer_id": "tiny-orbit",
+    "category": "education",
+    "tagline": "Math adventures for little minds",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udd22",
+      "gradient": [
+        "#10b981",
+        "#84cc16"
+      ]
+    },
+    "tags": [
+      "kids",
+      "math",
+      "learning",
+      "puzzles"
+    ],
+    "rating": 4.9,
+    "ratings_count": 1877,
+    "downloads": 45230,
+    "version": "1.0.2",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-09-20",
+    "updated_at": "2026-09-29"
+  },
+  {
+    "slug": "vaultkey",
+    "name": "Vaultkey",
+    "developer": "Ironbark Software",
+    "developer_id": "ironbark-software",
+    "category": "tools",
+    "tagline": "Passwords, locked tight",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udd10",
+      "gradient": [
+        "#334155",
+        "#0ea5e9"
+      ]
+    },
+    "tags": [
+      "security",
+      "passwords",
+      "privacy",
+      "2fa"
+    ],
+    "rating": 4.5,
+    "ratings_count": 15504,
+    "downloads": 388102,
+    "version": "4.1.0",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-02-08",
+    "updated_at": "2026-09-26"
+  },
+  {
+    "slug": "chatterbox",
+    "name": "Chatterbox",
+    "developer": "Loopside",
+    "developer_id": "loopside",
+    "category": "social",
+    "tagline": "Talk everywhere, simply",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udcac",
+      "gradient": [
+        "#ec4899",
+        "#f43f5e"
+      ]
+    },
+    "tags": [
+      "messaging",
+      "chat",
+      "groups",
+      "privacy"
+    ],
+    "rating": 4.2,
+    "ratings_count": 64340,
+    "downloads": 1204330,
+    "version": "2.7.3",
+    "status": "published",
+    "featured": false,
+    "trending": true,
+    "created_at": "2026-01-15",
+    "updated_at": "2026-09-27"
+  },
+  {
+    "slug": "snippetly",
+    "name": "Snippetly",
+    "developer": "Codecraft",
+    "developer_id": "codecraft",
+    "category": "developer-tools",
+    "tagline": "Your code, one hotkey away",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83e\udde9",
+      "gradient": [
+        "#8b5cf6",
+        "#d946ef"
+      ]
+    },
+    "tags": [
+      "snippets",
+      "code",
+      "productivity",
+      "sync"
+    ],
+    "rating": 4.8,
+    "ratings_count": 3211,
+    "downloads": 88420,
+    "version": "1.5.0",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-06-10",
+    "updated_at": "2026-09-19"
+  },
+  {
+    "slug": "focusflow",
+    "name": "Focusflow",
+    "developer": "Northlight Labs",
+    "developer_id": "northlight-labs",
+    "category": "productivity",
+    "tagline": "Deep work, made simple",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\u23f1\ufe0f",
+      "gradient": [
+        "#f59e0b",
+        "#f97316"
+      ]
+    },
+    "tags": [
+      "focus",
+      "pomodoro",
+      "timer",
+      "habits"
+    ],
+    "rating": 4.4,
+    "ratings_count": 9022,
+    "downloads": 210455,
+    "version": "2.2.0",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-04-02",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "slug": "stellar-siege",
+    "name": "Stellar Siege",
+    "developer": "Frostline Games",
+    "developer_id": "frostline-games",
+    "category": "games",
+    "tagline": "Command fleets across the stars",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\ude80",
+      "gradient": [
+        "#312e81",
+        "#7c3aed"
+      ]
+    },
+    "tags": [
+      "strategy",
+      "scifi",
+      "multiplayer",
+      "turn-based"
+    ],
+    "rating": 4.7,
+    "ratings_count": 22480,
+    "downloads": 604512,
+    "version": "1.3.0",
+    "status": "published",
+    "featured": true,
+    "trending": false,
+    "created_at": "2026-06-25",
+    "updated_at": "2026-09-23"
+  },
+  {
+    "slug": "tunetrader",
+    "name": "TuneTrader",
+    "developer": "Auralis",
+    "developer_id": "auralis",
+    "category": "music",
+    "tagline": "Make beats on the move",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83c\udf9b\ufe0f",
+      "gradient": [
+        "#14b8a6",
+        "#0ea5e9"
+      ]
+    },
+    "tags": [
+      "beats",
+      "sequencer",
+      "music",
+      "studio"
+    ],
+    "rating": 4.3,
+    "ratings_count": 918,
+    "downloads": 25871,
+    "version": "1.1.0",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-09-15",
+    "updated_at": "2026-09-24"
+  },
+  {
+    "slug": "lingoplay",
+    "name": "Lingoplay",
+    "developer": "Tiny Orbit",
+    "developer_id": "tiny-orbit",
+    "category": "education",
+    "tagline": "Speak a new language in 5 min/day",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udde3\ufe0f",
+      "gradient": [
+        "#22c55e",
+        "#eab308"
+      ]
+    },
+    "tags": [
+      "languages",
+      "learning",
+      "speech",
+      "streaks"
+    ],
+    "rating": 4.6,
+    "ratings_count": 40112,
+    "downloads": 733940,
+    "version": "2.0.0",
+    "status": "published",
+    "featured": true,
+    "trending": false,
+    "created_at": "2026-01-20",
+    "updated_at": "2026-09-17"
+  },
+  {
+    "slug": "docudock",
+    "name": "Docudock",
+    "developer": "Ironbark Software",
+    "developer_id": "ironbark-software",
+    "category": "tools",
+    "tagline": "PDFs, tamed",
+    "icon": {
+      "type": "gradient",
+      "emoji": "\ud83d\udcc4",
+      "gradient": [
+        "#38bdf8",
+        "#6366f1"
+      ]
+    },
+    "tags": [
+      "pdf",
+      "documents",
+      "esign",
+      "files"
+    ],
+    "rating": 4.4,
+    "ratings_count": 7044,
+    "downloads": 155230,
+    "version": "3.0.1",
+    "status": "published",
+    "featured": false,
+    "trending": false,
+    "created_at": "2026-02-27",
+    "updated_at": "2026-09-22"
+  }
+]

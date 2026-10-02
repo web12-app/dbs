@@ -1,0 +1,90 @@
+{
+  "slug": "mathlings",
+  "name": "Mathlings",
+  "package_id": "dev.apds.mathlings",
+  "developer": "Tiny Orbit",
+  "developer_id": "tiny-orbit",
+  "category": "education",
+  "tagline": "Math adventures for little minds",
+  "description": "Meet the Mathlings \u2014 tiny creatures that turn arithmetic into adventure. Bite-sized puzzles adapt to your child's pace, with gentle streaks and zero ads.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udd22",
+    "gradient": [
+      "#10b981",
+      "#84cc16"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Counting garden",
+      "palette": [
+        "#10b981",
+        "#84cc16"
+      ],
+      "emoji": "\ud83d\udd22"
+    },
+    {
+      "title": "Puzzle path",
+      "palette": [
+        "#10b981",
+        "#84cc16"
+      ],
+      "emoji": "\ud83d\udd22"
+    },
+    {
+      "title": "Streak rewards",
+      "palette": [
+        "#10b981",
+        "#84cc16"
+      ],
+      "emoji": "\ud83d\udd22"
+    }
+  ],
+  "website": "https://tinyorbit.fun",
+  "privacy_policy": "https://tinyorbit.fun/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet"
+  ],
+  "tags": [
+    "kids",
+    "math",
+    "learning",
+    "puzzles"
+  ],
+  "status": "published",
+  "rating": 4.9,
+  "ratings_count": 1877,
+  "downloads": 45230,
+  "created_at": "2026-09-20",
+  "updated_at": "2026-09-29",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "1.0.2",
+      "notes": "Gentler difficulty curve and a new counting garden.",
+      "size_kb": 24576,
+      "min_os": "7.0",
+      "status": "published",
+      "created_at": "2026-09-29",
+      "published_at": "2026-09-29",
+      "downloads": 31660,
+      "release_tag": "apps/mathlings/v1.0.2",
+      "sha256": null
+    },
+    {
+      "version": "1.0.1",
+      "notes": "Parental dashboard.",
+      "size_kb": 24064,
+      "min_os": "7.0",
+      "status": "published",
+      "created_at": "2026-09-20",
+      "published_at": "2026-09-20",
+      "downloads": 13569,
+      "release_tag": "apps/mathlings/v1.0.1",
+      "sha256": null
+    }
+  ]
+}

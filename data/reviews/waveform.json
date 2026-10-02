@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r0",
+    "user": "nina",
+    "rating": 5,
+    "title": "It knows my taste",
+    "body": "The adaptive mix is genuinely magical.",
+    "created_at": "2026-09-10"
+  },
+  {
+    "id": "r1",
+    "user": "tone_purist",
+    "rating": 4,
+    "title": "Lossless please on 4G",
+    "body": "Excellent player, just let me force lossless everywhere.",
+    "created_at": "2026-09-22"
+  }
+]

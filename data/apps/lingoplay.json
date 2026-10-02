@@ -1,0 +1,92 @@
+{
+  "slug": "lingoplay",
+  "name": "Lingoplay",
+  "package_id": "dev.apds.lingoplay",
+  "developer": "Tiny Orbit",
+  "developer_id": "tiny-orbit",
+  "category": "education",
+  "tagline": "Speak a new language in 5 min/day",
+  "description": "Lingoplay's story-driven micro-lessons adapt to you, with speech practice that actually listens. Five minutes a day really adds up.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udde3\ufe0f",
+    "gradient": [
+      "#22c55e",
+      "#eab308"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Today's story",
+      "palette": [
+        "#22c55e",
+        "#eab308"
+      ],
+      "emoji": "\ud83d\udde3\ufe0f"
+    },
+    {
+      "title": "Speech practice",
+      "palette": [
+        "#22c55e",
+        "#eab308"
+      ],
+      "emoji": "\ud83d\udde3\ufe0f"
+    },
+    {
+      "title": "Streak",
+      "palette": [
+        "#22c55e",
+        "#eab308"
+      ],
+      "emoji": "\ud83d\udde3\ufe0f"
+    }
+  ],
+  "website": "https://tinyorbit.fun",
+  "privacy_policy": "https://tinyorbit.fun/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Microphone",
+    "Storage"
+  ],
+  "tags": [
+    "languages",
+    "learning",
+    "speech",
+    "streaks"
+  ],
+  "status": "published",
+  "rating": 4.6,
+  "ratings_count": 40112,
+  "downloads": 733940,
+  "created_at": "2026-01-20",
+  "updated_at": "2026-09-17",
+  "featured": true,
+  "trending": false,
+  "versions": [
+    {
+      "version": "2.0.0",
+      "notes": "New story engine, speech drills v2.",
+      "size_kb": 35840,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-17",
+      "published_at": "2026-09-17",
+      "downloads": 403667,
+      "release_tag": "apps/lingoplay/v2.0.0",
+      "sha256": null
+    },
+    {
+      "version": "1.9.1",
+      "notes": "Streak repair.",
+      "size_kb": 34816,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-08-14",
+      "published_at": "2026-08-14",
+      "downloads": 330273,
+      "release_tag": "apps/lingoplay/v1.9.1",
+      "sha256": null
+    }
+  ]
+}

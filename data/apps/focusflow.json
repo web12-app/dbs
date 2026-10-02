@@ -1,0 +1,91 @@
+{
+  "slug": "focusflow",
+  "name": "Focusflow",
+  "package_id": "dev.apds.focusflow",
+  "developer": "Northlight Labs",
+  "developer_id": "northlight-labs",
+  "category": "productivity",
+  "tagline": "Deep work, made simple",
+  "description": "Focusflow blends a flexible pomodoro timer with ambient soundscapes and gentle analytics that show when you do your best work.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\u23f1\ufe0f",
+    "gradient": [
+      "#f59e0b",
+      "#f97316"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Session",
+      "palette": [
+        "#f59e0b",
+        "#f97316"
+      ],
+      "emoji": "\u23f1\ufe0f"
+    },
+    {
+      "title": "Soundscapes",
+      "palette": [
+        "#f59e0b",
+        "#f97316"
+      ],
+      "emoji": "\u23f1\ufe0f"
+    },
+    {
+      "title": "Your rhythms",
+      "palette": [
+        "#f59e0b",
+        "#f97316"
+      ],
+      "emoji": "\u23f1\ufe0f"
+    }
+  ],
+  "website": "https://northlightlabs.dev",
+  "privacy_policy": "https://northlightlabs.dev/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Notifications"
+  ],
+  "tags": [
+    "focus",
+    "pomodoro",
+    "timer",
+    "habits"
+  ],
+  "status": "published",
+  "rating": 4.4,
+  "ratings_count": 9022,
+  "downloads": 210455,
+  "created_at": "2026-04-02",
+  "updated_at": "2026-09-21",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "2.2.0",
+      "notes": "Rhythm insights and 12 new soundscapes.",
+      "size_kb": 15360,
+      "min_os": "7.0",
+      "status": "published",
+      "created_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "downloads": 105227,
+      "release_tag": "apps/focusflow/v2.2.0",
+      "sha256": null
+    },
+    {
+      "version": "2.1.0",
+      "notes": "Calendar blocking.",
+      "size_kb": 14848,
+      "min_os": "7.0",
+      "status": "published",
+      "created_at": "2026-08-11",
+      "published_at": "2026-08-11",
+      "downloads": 105227,
+      "release_tag": "apps/focusflow/v2.1.0",
+      "sha256": null
+    }
+  ]
+}

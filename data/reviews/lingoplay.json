@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r0",
+    "user": "yuki_t",
+    "rating": 5,
+    "title": "Streak 120 and counting",
+    "body": "Five minutes really works.",
+    "created_at": "2026-09-11"
+  },
+  {
+    "id": "r1",
+    "user": "marco_p",
+    "rating": 4,
+    "title": "Great stories",
+    "body": "Wish there were more languages.",
+    "created_at": "2026-09-15"
+  }
+]

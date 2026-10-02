@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r0",
+    "user": "aarav_dev",
+    "rating": 5,
+    "title": "Replaced three apps",
+    "body": "The smart collections alone are worth it. Sync is instant and search is scary fast.",
+    "created_at": "2026-09-12"
+  },
+  {
+    "id": "r1",
+    "user": "priya.m",
+    "rating": 4,
+    "title": "Almost perfect",
+    "body": "Love the focus mode. Wish widgets came to tablets too.",
+    "created_at": "2026-09-20"
+  }
+]

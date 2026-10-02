@@ -1,0 +1,91 @@
+{
+  "slug": "stellar-siege",
+  "name": "Stellar Siege",
+  "package_id": "dev.apds.stellarsiege",
+  "developer": "Frostline Games",
+  "developer_id": "frostline-games",
+  "category": "games",
+  "tagline": "Command fleets across the stars",
+  "description": "A turn-based strategy game of expansion and diplomacy \u2014 build stations, forge alliances, and out-think opponents in async multiplayer.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\ude80",
+    "gradient": [
+      "#312e81",
+      "#7c3aed"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Star map",
+      "palette": [
+        "#312e81",
+        "#7c3aed"
+      ],
+      "emoji": "\ud83d\ude80"
+    },
+    {
+      "title": "Fleet command",
+      "palette": [
+        "#312e81",
+        "#7c3aed"
+      ],
+      "emoji": "\ud83d\ude80"
+    },
+    {
+      "title": "Diplomacy",
+      "palette": [
+        "#312e81",
+        "#7c3aed"
+      ],
+      "emoji": "\ud83d\ude80"
+    }
+  ],
+  "website": "https://frostline.games",
+  "privacy_policy": "https://frostline.games/privacy",
+  "age_rating": "Teen (fantasy violence)",
+  "permissions": [
+    "Internet",
+    "Storage"
+  ],
+  "tags": [
+    "strategy",
+    "scifi",
+    "multiplayer",
+    "turn-based"
+  ],
+  "status": "published",
+  "rating": 4.7,
+  "ratings_count": 22480,
+  "downloads": 604512,
+  "created_at": "2026-06-25",
+  "updated_at": "2026-09-23",
+  "featured": true,
+  "trending": false,
+  "versions": [
+    {
+      "version": "1.3.0",
+      "notes": "Alliance treaties and a new sector map.",
+      "size_kb": 71680,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-09-23",
+      "published_at": "2026-09-23",
+      "downloads": 302256,
+      "release_tag": "apps/stellar-siege/v1.3.0",
+      "sha256": null
+    },
+    {
+      "version": "1.2.4",
+      "notes": "Fleet pathfinding fixes.",
+      "size_kb": 69632,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-08-19",
+      "published_at": "2026-08-19",
+      "downloads": 302256,
+      "release_tag": "apps/stellar-siege/v1.2.4",
+      "sha256": null
+    }
+  ]
+}

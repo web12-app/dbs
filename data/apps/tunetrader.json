@@ -1,0 +1,92 @@
+{
+  "slug": "tunetrader",
+  "name": "TuneTrader",
+  "package_id": "dev.apds.tunetrader",
+  "developer": "Auralis",
+  "developer_id": "auralis",
+  "category": "music",
+  "tagline": "Make beats on the move",
+  "description": "TuneTrader packs a pocket studio \u2014 step sequencer, sample pads, and effects \u2014 that exports studio-quality tracks straight from your phone.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83c\udf9b\ufe0f",
+    "gradient": [
+      "#14b8a6",
+      "#0ea5e9"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Sequencer",
+      "palette": [
+        "#14b8a6",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83c\udf9b\ufe0f"
+    },
+    {
+      "title": "Sample pads",
+      "palette": [
+        "#14b8a6",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83c\udf9b\ufe0f"
+    },
+    {
+      "title": "Export",
+      "palette": [
+        "#14b8a6",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83c\udf9b\ufe0f"
+    }
+  ],
+  "website": "https://auralis.audio",
+  "privacy_policy": "https://auralis.audio/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Storage",
+    "Microphone"
+  ],
+  "tags": [
+    "beats",
+    "sequencer",
+    "music",
+    "studio"
+  ],
+  "status": "published",
+  "rating": 4.3,
+  "ratings_count": 918,
+  "downloads": 25871,
+  "created_at": "2026-09-15",
+  "updated_at": "2026-09-24",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "1.1.0",
+      "notes": "Effects rack and 24-bit export.",
+      "size_kb": 40960,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-09-24",
+      "published_at": "2026-09-24",
+      "downloads": 15522,
+      "release_tag": "apps/tunetrader/v1.1.0",
+      "sha256": null
+    },
+    {
+      "version": "1.0.0",
+      "notes": "First public release.",
+      "size_kb": 38912,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-09-15",
+      "published_at": "2026-09-15",
+      "downloads": 10348,
+      "release_tag": "apps/tunetrader/v1.0.0",
+      "sha256": null
+    }
+  ]
+}

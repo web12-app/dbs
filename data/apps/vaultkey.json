@@ -1,0 +1,92 @@
+{
+  "slug": "vaultkey",
+  "name": "Vaultkey",
+  "package_id": "dev.apds.vaultkey",
+  "developer": "Ironbark Software",
+  "developer_id": "ironbark-software",
+  "category": "tools",
+  "tagline": "Passwords, locked tight",
+  "description": "Your passwords, locked tight. Vaultkey stores secrets in a zero-knowledge vault, fills them instantly on every device, and alerts you the moment a breach touches your accounts.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udd10",
+    "gradient": [
+      "#334155",
+      "#0ea5e9"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "The vault",
+      "palette": [
+        "#334155",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83d\udd10"
+    },
+    {
+      "title": "Autofill",
+      "palette": [
+        "#334155",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83d\udd10"
+    },
+    {
+      "title": "Breach radar",
+      "palette": [
+        "#334155",
+        "#0ea5e9"
+      ],
+      "emoji": "\ud83d\udd10"
+    }
+  ],
+  "website": "https://ironbark.software",
+  "privacy_policy": "https://ironbark.software/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Storage",
+    "Biometrics"
+  ],
+  "tags": [
+    "security",
+    "passwords",
+    "privacy",
+    "2fa"
+  ],
+  "status": "published",
+  "rating": 4.5,
+  "ratings_count": 15504,
+  "downloads": 388102,
+  "created_at": "2026-02-08",
+  "updated_at": "2026-09-26",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "4.1.0",
+      "notes": "Passkeys support and emergency kit PDFs.",
+      "size_kb": 12288,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-26",
+      "published_at": "2026-09-26",
+      "downloads": 194051,
+      "release_tag": "apps/vaultkey/v4.1.0",
+      "sha256": null
+    },
+    {
+      "version": "4.0.0",
+      "notes": "Redesigned vault, faster autofill.",
+      "size_kb": 11776,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-08-30",
+      "published_at": "2026-08-30",
+      "downloads": 194051,
+      "release_tag": "apps/vaultkey/v4.0.0",
+      "sha256": null
+    }
+  ]
+}

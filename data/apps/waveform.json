@@ -1,0 +1,92 @@
+{
+  "slug": "waveform",
+  "name": "Waveform",
+  "package_id": "dev.apds.waveform",
+  "developer": "Auralis",
+  "developer_id": "auralis",
+  "category": "music",
+  "tagline": "A music player that learns you",
+  "description": "A music player that learns what you love. Waveform builds adaptive playlists from your library, streams losslessly when you're on Wi-Fi, and keeps the beats going offline when you're not.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83c\udfa7",
+    "gradient": [
+      "#06b6d4",
+      "#3b82f6"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Now playing",
+      "palette": [
+        "#06b6d4",
+        "#3b82f6"
+      ],
+      "emoji": "\ud83c\udfa7"
+    },
+    {
+      "title": "Adaptive mix",
+      "palette": [
+        "#06b6d4",
+        "#3b82f6"
+      ],
+      "emoji": "\ud83c\udfa7"
+    },
+    {
+      "title": "Equalizer",
+      "palette": [
+        "#06b6d4",
+        "#3b82f6"
+      ],
+      "emoji": "\ud83c\udfa7"
+    }
+  ],
+  "website": "https://auralis.audio",
+  "privacy_policy": "https://auralis.audio/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Storage",
+    "Media controls"
+  ],
+  "tags": [
+    "music",
+    "player",
+    "playlists",
+    "offline"
+  ],
+  "status": "published",
+  "rating": 4.7,
+  "ratings_count": 30188,
+  "downloads": 952301,
+  "created_at": "2026-03-12",
+  "updated_at": "2026-09-25",
+  "featured": false,
+  "trending": true,
+  "versions": [
+    {
+      "version": "3.4.0",
+      "notes": "Crossfade, gapless everywhere, and a redesigned queue.",
+      "size_kb": 32768,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-25",
+      "published_at": "2026-09-25",
+      "downloads": 476150,
+      "release_tag": "apps/waveform/v3.4.0",
+      "sha256": null
+    },
+    {
+      "version": "3.3.2",
+      "notes": "Bug fixes for Bluetooth skip.",
+      "size_kb": 31744,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-01",
+      "published_at": "2026-09-01",
+      "downloads": 476150,
+      "release_tag": "apps/waveform/v3.3.2",
+      "sha256": null
+    }
+  ]
+}

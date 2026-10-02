@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r0",
+    "user": "cmdr_shep",
+    "rating": 5,
+    "title": "One more turn...",
+    "body": "Async multiplayer is brilliantly done.",
+    "created_at": "2026-09-17"
+  },
+  {
+    "id": "r1",
+    "user": "zoe_q",
+    "rating": 4,
+    "title": "Deep strategy",
+    "body": "Steep learning curve but rewarding.",
+    "created_at": "2026-09-26"
+  }
+]

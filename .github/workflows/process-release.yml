@@ -1,0 +1,84 @@
+name: Process release
+
+# Controlled background processing for marketplace releases.
+# Dispatched by the marketplace API (server-side only) after a package upload.
+# No secrets are required: the built-in GITHUB_TOKEN is scoped to this repo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_slug:
+        description: "App slug"
+        required: true
+      version:
+        description: "Version string"
+        required: true
+      release_id:
+        description: "GitHub release id (internal)"
+        required: true
+      sha256:
+        description: "Expected asset SHA-256"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: process-${{ inputs.app_slug }}-${{ inputs.version }}
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout catalog
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Download and validate package
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_ID: ${{ inputs.release_id }}
+          EXPECTED_SHA256: ${{ inputs.sha256 }}
+        run: |
+          set -euo pipefail
+          asset_url=$(gh api "/repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" --jq '.assets[0].url')
+          asset_name=$(gh api "/repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" --jq '.assets[0].name')
+          echo "Validating $asset_name"
+          gh api -H "Accept: application/octet-stream" "$asset_url" > "$asset_name"
+          case "$asset_name" in
+            *.apk|*.aab|*.zip) ;;
+            *) echo "::error::Unsupported package type: $asset_name"; exit 1 ;;
+          esac
+          magic=$(head -c 4 "$asset_name" | od -An -tx1 | tr -d ' \n')
+          if [ "$magic" != "504b0304" ]; then
+            echo "::error::Not a valid ZIP-based package (bad magic: $magic)"; exit 1
+          fi
+          actual=$(sha256sum "$asset_name" | awk '{print $1}')
+          if [ "$actual" != "$EXPECTED_SHA256" ]; then
+            echo "::error::Checksum mismatch"; exit 1
+          fi
+          echo "Package validated: $asset_name"
+
+      - name: Publish release (creates the immutable git tag)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_ID: ${{ inputs.release_id }}
+        run: gh api -X PATCH "/repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" -F draft=false
+
+      - name: Update marketplace metadata
+        run: |
+          python3 scripts/publish_version.py \
+            --app "${{ inputs.app_slug }}" \
+            --version "${{ inputs.version }}" \
+            --sha256 "${{ inputs.sha256 }}"
+
+      - name: Commit metadata
+        run: |
+          git config user.name "apds-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "publish: ${{ inputs.app_slug }} v${{ inputs.version }}" || exit 0
+          git push

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r0",
+    "user": "gamer_raj",
+    "rating": 5,
+    "title": "Drift king",
+    "body": "Best arcade racer on here. The hover cars feel great.",
+    "created_at": "2026-09-18"
+  },
+  {
+    "id": "r1",
+    "user": "kim_codes",
+    "rating": 4,
+    "title": "Great, battery hungry",
+    "body": "Amazing graphics but my phone gets warm after long sessions.",
+    "created_at": "2026-09-25"
+  }
+]

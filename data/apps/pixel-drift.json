@@ -1,0 +1,92 @@
+{
+  "slug": "pixel-drift",
+  "name": "Pixel Drift",
+  "package_id": "dev.apds.pixeldrift",
+  "developer": "Frostline Games",
+  "developer_id": "frostline-games",
+  "category": "games",
+  "tagline": "Retro arcade racing",
+  "description": "Slide into retro-futuristic arcade racing. Drift through 60 hand-crafted tracks, upgrade a garage of 24 hover cars, and climb the global leaderboards. Built for quick sessions and long streaks.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83c\udfce\ufe0f",
+    "gradient": [
+      "#f97316",
+      "#ef4444"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Garage",
+      "palette": [
+        "#f97316",
+        "#ef4444"
+      ],
+      "emoji": "\ud83c\udfce\ufe0f"
+    },
+    {
+      "title": "Race day",
+      "palette": [
+        "#f97316",
+        "#ef4444"
+      ],
+      "emoji": "\ud83c\udfce\ufe0f"
+    },
+    {
+      "title": "Leaderboards",
+      "palette": [
+        "#f97316",
+        "#ef4444"
+      ],
+      "emoji": "\ud83c\udfce\ufe0f"
+    }
+  ],
+  "website": "https://frostline.games",
+  "privacy_policy": "https://frostline.games/privacy",
+  "age_rating": "Teen (fantasy violence)",
+  "permissions": [
+    "Internet",
+    "Storage",
+    "Vibrate"
+  ],
+  "tags": [
+    "racing",
+    "arcade",
+    "retro",
+    "multiplayer"
+  ],
+  "status": "published",
+  "rating": 4.6,
+  "ratings_count": 48211,
+  "downloads": 1904222,
+  "created_at": "2026-05-30",
+  "updated_at": "2026-09-30",
+  "featured": true,
+  "trending": true,
+  "versions": [
+    {
+      "version": "2.0.1",
+      "notes": "Neon Bay circuit and anti-cheat improvements.",
+      "size_kb": 96256,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-09-30",
+      "published_at": "2026-09-30",
+      "downloads": 1047322,
+      "release_tag": "apps/pixel-drift/v2.0.1",
+      "sha256": null
+    },
+    {
+      "version": "1.9.0",
+      "notes": "New hover class: Blizzard. Ghost replays.",
+      "size_kb": 91136,
+      "min_os": "9.0",
+      "status": "published",
+      "created_at": "2026-08-21",
+      "published_at": "2026-08-21",
+      "downloads": 856899,
+      "release_tag": "apps/pixel-drift/v1.9.0",
+      "sha256": null
+    }
+  ]
+}

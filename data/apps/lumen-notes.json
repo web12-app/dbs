@@ -1,0 +1,91 @@
+{
+  "slug": "lumen-notes",
+  "name": "Lumen Notes",
+  "package_id": "dev.apds.lumennotes",
+  "developer": "Northlight Labs",
+  "developer_id": "northlight-labs",
+  "category": "productivity",
+  "tagline": "Notes that organize themselves",
+  "description": "Lumen Notes is a calm, fast home for your ideas. Capture thoughts with instant markdown, organize automatically with smart collections, and find anything in milliseconds with full-text search. Everything syncs end-to-end encrypted across your devices.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udcdd",
+    "gradient": [
+      "#6366f1",
+      "#8b5cf6"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Capture instantly",
+      "palette": [
+        "#6366f1",
+        "#8b5cf6"
+      ],
+      "emoji": "\ud83d\udcdd"
+    },
+    {
+      "title": "Smart collections",
+      "palette": [
+        "#6366f1",
+        "#8b5cf6"
+      ],
+      "emoji": "\ud83d\udcdd"
+    },
+    {
+      "title": "Focus mode",
+      "palette": [
+        "#6366f1",
+        "#8b5cf6"
+      ],
+      "emoji": "\ud83d\udcdd"
+    }
+  ],
+  "website": "https://northlightlabs.dev",
+  "privacy_policy": "https://northlightlabs.dev/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Storage"
+  ],
+  "tags": [
+    "notes",
+    "markdown",
+    "sync",
+    "organization"
+  ],
+  "status": "published",
+  "rating": 4.8,
+  "ratings_count": 12403,
+  "downloads": 284011,
+  "created_at": "2026-08-14",
+  "updated_at": "2026-09-28",
+  "featured": true,
+  "trending": true,
+  "versions": [
+    {
+      "version": "1.2.0",
+      "notes": "Widgets on the home screen, dark theme polish, and faster offline sync.",
+      "size_kb": 18432,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-28",
+      "published_at": "2026-09-28",
+      "downloads": 170406,
+      "release_tag": "apps/lumen-notes/v1.2.0",
+      "sha256": null
+    },
+    {
+      "version": "1.1.0",
+      "notes": "Markdown tables, PDF export, and 40+ fixes.",
+      "size_kb": 17920,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-02",
+      "published_at": "2026-09-02",
+      "downloads": 113604,
+      "release_tag": "apps/lumen-notes/v1.1.0",
+      "sha256": null
+    }
+  ]
+}

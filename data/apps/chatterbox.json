@@ -1,0 +1,94 @@
+{
+  "slug": "chatterbox",
+  "name": "Chatterbox",
+  "package_id": "dev.apds.chatterbox",
+  "developer": "Loopside",
+  "developer_id": "loopside",
+  "category": "social",
+  "tagline": "Talk everywhere, simply",
+  "description": "Messaging stripped to its essentials \u2014 fast, private chats with friends and groups, read receipts you control, and no algorithm in sight.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83d\udcac",
+    "gradient": [
+      "#ec4899",
+      "#f43f5e"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Chats",
+      "palette": [
+        "#ec4899",
+        "#f43f5e"
+      ],
+      "emoji": "\ud83d\udcac"
+    },
+    {
+      "title": "Groups",
+      "palette": [
+        "#ec4899",
+        "#f43f5e"
+      ],
+      "emoji": "\ud83d\udcac"
+    },
+    {
+      "title": "Privacy first",
+      "palette": [
+        "#ec4899",
+        "#f43f5e"
+      ],
+      "emoji": "\ud83d\udcac"
+    }
+  ],
+  "website": "https://loopside.chat",
+  "privacy_policy": "https://loopside.chat/privacy",
+  "age_rating": "13+",
+  "permissions": [
+    "Internet",
+    "Storage",
+    "Camera",
+    "Microphone",
+    "Contacts (optional)"
+  ],
+  "tags": [
+    "messaging",
+    "chat",
+    "groups",
+    "privacy"
+  ],
+  "status": "published",
+  "rating": 4.2,
+  "ratings_count": 64340,
+  "downloads": 1204330,
+  "created_at": "2026-01-15",
+  "updated_at": "2026-09-27",
+  "featured": false,
+  "trending": true,
+  "versions": [
+    {
+      "version": "2.7.3",
+      "notes": "Voice notes (beta) and push reliability fixes.",
+      "size_kb": 28672,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-27",
+      "published_at": "2026-09-27",
+      "downloads": 541948,
+      "release_tag": "apps/chatterbox/v2.7.3",
+      "sha256": null
+    },
+    {
+      "version": "2.6.0",
+      "notes": "Group invites via link.",
+      "size_kb": 27648,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-08-25",
+      "published_at": "2026-08-25",
+      "downloads": 662381,
+      "release_tag": "apps/chatterbox/v2.6.0",
+      "sha256": null
+    }
+  ]
+}

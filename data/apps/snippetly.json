@@ -1,0 +1,91 @@
+{
+  "slug": "snippetly",
+  "name": "Snippetly",
+  "package_id": "dev.apds.snippetly",
+  "developer": "Codecraft",
+  "developer_id": "codecraft",
+  "category": "developer-tools",
+  "tagline": "Your code, one hotkey away",
+  "description": "Snippetly keeps a searchable library of snippets with syntax highlighting, placeholder expansion, and instant sync between your machines.",
+  "icon": {
+    "type": "gradient",
+    "emoji": "\ud83e\udde9",
+    "gradient": [
+      "#8b5cf6",
+      "#d946ef"
+    ]
+  },
+  "screenshots": [
+    {
+      "title": "Library",
+      "palette": [
+        "#8b5cf6",
+        "#d946ef"
+      ],
+      "emoji": "\ud83e\udde9"
+    },
+    {
+      "title": "Snippet editor",
+      "palette": [
+        "#8b5cf6",
+        "#d946ef"
+      ],
+      "emoji": "\ud83e\udde9"
+    },
+    {
+      "title": "Hotkey anywhere",
+      "palette": [
+        "#8b5cf6",
+        "#d946ef"
+      ],
+      "emoji": "\ud83e\udde9"
+    }
+  ],
+  "website": "https://codecraft.tools",
+  "privacy_policy": "https://codecraft.tools/privacy",
+  "age_rating": "Everyone",
+  "permissions": [
+    "Internet",
+    "Storage"
+  ],
+  "tags": [
+    "snippets",
+    "code",
+    "productivity",
+    "sync"
+  ],
+  "status": "published",
+  "rating": 4.8,
+  "ratings_count": 3211,
+  "downloads": 88420,
+  "created_at": "2026-06-10",
+  "updated_at": "2026-09-19",
+  "featured": false,
+  "trending": false,
+  "versions": [
+    {
+      "version": "1.5.0",
+      "notes": "Placeholder expansion and team sharing.",
+      "size_kb": 8192,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-09-19",
+      "published_at": "2026-09-19",
+      "downloads": 53052,
+      "release_tag": "apps/snippetly/v1.5.0",
+      "sha256": null
+    },
+    {
+      "version": "1.4.2",
+      "notes": "Syntax themes.",
+      "size_kb": 7680,
+      "min_os": "8.0",
+      "status": "published",
+      "created_at": "2026-08-28",
+      "published_at": "2026-08-28",
+      "downloads": 35368,
+      "release_tag": "apps/snippetly/v1.4.2",
+      "sha256": null
+    }
+  ]
+}
